@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: testapp
-          image: localhost:30000/testapp:latest
+          image: localhost:30000/testapp:983ae9c358271c97b03da02860a8ac68313d6691
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
