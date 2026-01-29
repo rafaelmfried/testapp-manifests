@@ -17,4 +17,4 @@ kubectl apply -f testapp-manifests
 
 ## Observacoes
 
-- A imagem usada e `localhost:5000/testapp:latest`. Ajuste para o seu registry se necessario.
+- A imagem usada e `localhost:30000/testapp:latest`. Ajuste conforme o registry em uso.
