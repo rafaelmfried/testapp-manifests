@@ -24,4 +24,4 @@ kubectl apply -f testapp-manifests
   ```
   Depois use `localhost:5001` para push.
 - O manifesto do registry local fica em `cluster-manifests/registry.yaml`.
-- Para expor a aplicacao externamente, use `cluster-manifests/testapp-nodeport.yaml`.
+- Para expor a aplicacao externamente, aplique `kubectl apply -k cluster-manifests`.
