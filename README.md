@@ -24,3 +24,8 @@ kubectl apply -f testapp-manifests
   ```
   Depois use `localhost:5001` para push.
 - O manifesto do registry local fica em `cluster-manifests/registry.yaml`.
+- O Service do app e NodePort `30080`. Para acessar via host no k3d:
+  ```bash
+  k3d cluster edit <nome-do-cluster> --port-add 8081:30080@loadbalancer
+  ```
+  Depois acesse `http://localhost:8081`.
