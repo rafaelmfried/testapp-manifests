@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
     - name: testapp
-      image: localhost:30000/testapp:983ae9c358271c97b03da02860a8ac68313d6691
+      image: localhost:30000/testapp:b028a81673c6bc8b2657d04fdb4cc5716e01e5c8
       imagePullPolicy: IfNotPresent
       ports:
         - containerPort: 3000
